@@ -1,4 +1,5 @@
-source ~/.config/nvim/src/plugin.vim
+source ~/.config/nvim/plugin/main.vim
+
 
 " Basics Settings 
 scriptencoding utf-8
@@ -78,18 +79,6 @@ set whichwrap+=<,>,h,l,[,]
 " Reduce scroll jump with cursor goes off the screen.
 set sidescroll=1
 set sidescrolloff=3
-
-" colorscheme config
-let g:gruvbox_italic=1
-set termguicolors
-colorscheme gruvbox
-set background=light
-let g:gruvbox_contrast_light = 'hard'
-let g:gruvbox_hls_cursor = 'blue'
-let g:gruvbox_number_column = 'gray'
-let g:gruvbox_sign_column = 'bg4'
-let g:gruvbox_color_column = 'bg4'
-let g:gruvbox_vert_split = 'blue'
 
 " NERD tree config
 map <c-w> :NERDTreeToggle<CR>
