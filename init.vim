@@ -1,5 +1,6 @@
-source ~/.config/nvim/plugin/main.vim
-
+source ~/.config/nvim/nvim-config/plugin/main.vim
+source ~/.config/nvim/nvim-config/config/theme.vim
+source ~/.config/nvim/nvim-config/config/cpp.vim
 
 " Basics Settings 
 scriptencoding utf-8
